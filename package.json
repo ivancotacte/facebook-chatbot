@@ -4,9 +4,30 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "prettier": "prettier . --write"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Ivan Armenion Cotacte",
+    "email": "cotactearmenion@gmail,com",
+    "url": "https://github.com/ivancotacte/facebook-chatbot"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivancotacte/facebook-chatbot"
+  },
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "cheerio": "^0.22.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^3.0.0",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "websocket-stream": "^5.5.0"
+  },
+  "devDependencies": {
+    "prettier": "1.11.1"
+  }
 }
